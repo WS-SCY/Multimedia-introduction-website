@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人介绍</title>
+    <link href="SubPage1.css" type="text/css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading">
+                <div class="heading_nav">
+					<div class = "heading_img">
+                    	<img src = "../素材/logo.jpg">
+                   	</div>
+                    <div class="heading_title">
+                  		多媒体实验一 
+                    </div>
+                    <div class="heading_navbar" id = "mytop">
+                        <ul>
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="SubPage1.html">实验一</a></li>
+							<li><a href="SubPage2.html">实验二</a></li>
+                            <li><a href="SubPage3.html">实验三</a></li> 
+                            <li><a href="SubPage5.html">实验四</a></li> 
+                            <li><a href="SubPage5.html">实验五</a></li> 
+                        </ul> 
+						
+                    </div>  
+                </div>
+            </div>
+
+            <div class="body">
+            	<div class = "body_title">
+                	<h1>音频信号的获取与处理</h1>
+                    <p>计科1803班孙创昱</p>
+                </div>  
+				<hr/>
+				<hr/>
+				<div class = "body_content">
+                	<h3>实验目的</h3>
+                    <div class = "paragraph">
+                    	<p>(1)学会通过麦克风录制一段语音信号。
+(2)学会通过线性输入录制一段音乐信号作为背景音乐。
+(3)学会编辑音频，如剪切、混合粘贴等。
+(4)学会制作特殊效果，如增加回声等。</p>
+                    </div>
+					<h3>实验内容</h3>
+					<div class = "paragraph">
+						<p> (1)硬件准备。在计算机中要进行音频的录制或播放必须依靠声卡的支持。录制音频信号除需使用声卡外，还要有麦克风或其他音频信号设备(如录放机、CD唱机)；播放音频还需配备音箱。
+    (2)麦克风录制一段语音。使用Windows操作系统附带的录音机软件或使用Cool Edit 2000录制一段解说词声音。（替代素材中的sound1，录制30秒，个人介绍，第一句说自己名字，我叫XXX........,需要做去噪声处理）
+    (3)用CD唱机录制一段音乐。使用Cool Edit 2000软件从CD唱机录制一段音乐，将作为解说词的配乐。(可以直接用素材中的sound2)
+    (4)使用Cool Edit 2000编辑音频。对解说词音频文件进行剪辑，剪掉开头无用的部分；将解说词和音乐文件进行混音处理，编辑成一个配乐解说音频文件。（录制的sound1和sound2混音为sound，替代素材中原来的sound）
+</p>
+					</div>
+					<h3>实验方法</h3>
+					<div class = "paragraph">
+						<p>1.用麦克风录制声音文件:soundl.wav
+2.用CD唱机录制一段音乐文件：sound2.wav 
+3.使用CoolEdit 2000编辑soundl wav文件
+    剪辑录音解说词文件soundl.wav，步骤如下：
+(1)执行File--Open命令.打开soundl.wav文件。 
+(2)观察音频波形，前面有较长一段杂音，用鼠标单击并拖拽选定该区域呈高亮显示.如图E1.5所示。 
+(3)按键盘上的Delete键或执行Edit→Delete selection命令删除选定区域
+(4)执行File→Save命令保存该文件。 
+4.使用Cool Edit 2000编辑sound2.wav文件
+为音乐文件sound2.wav增加动听的山谷回声效果。
+(l)打开sound2.wav文件。 
+(2)执行Effects→Delay Effects→Echo命令，在弹出的对话框中进行如图El.6所示的设置，然后单击OK按钮。
+(3)执行File→Save命令保存文件。 
+5.使用CoolEdit 2000进行混音处理
+对soundl文件和sound2文件进行混音，生成配乐诗朗诵音乐。
+(1)打开soundl文件。
+(2)执行Edit→Mix Paste命令，出现如图El.7所示的对话框。 
+(3)在对话框中，设置被粘贴文件的音量Volume L和R为100，在混合方式框中选择Overlap，激活Crossfade选项输入时间为50ms，在被粘贴数据来源框中选择FromFile，单击Select File按钮选择sound2文件，指定Looppaste为1次，单击OK完成按钮。 
+(4)执行File→SaveAs命令，文件名存为sound3，单击OK按钮，完成混音处理。
+</p>
+					</div>
+					<h3>实验步骤</h3>
+					<div class = "experimental_pictures"> 
+						<div class = "picture_container">
+							<img alt = "1观察波形.png" src = "../实验一/1观察波形.png"</img>
+							<p>步骤一  观察波形</p>
+						</div>
+						<div class = "picture_container">
+							<img alt = "2选定区域并删除.png" src = "../实验一/2选定区域并删除.png"></img>
+							<p>步骤二 删除特定区域</p>
+						</div>
+						<div class = "picture_container">
+							<img alt = "3编辑sound2文件.png" src = "../实验一/3编辑sound2文件.png"></img>
+							<p>步骤三 编辑sound2文件</p>
+						</div>
+						<div class = "picture_container">
+							<img alt = "4进行混音处理.png" src = "../实验一/4进行混音处理.png"></img>
+							<p>步骤四 混音处理</p>
+						</div>					 			
+					</div>		
+					<h3>实验心得</h3>
+					<div class = "paragraph">
+						<p>通过学习cool edit对数字音频的不连续的特点有了更深的理解，也尝试对自己的录音进行编辑，觉得挺有趣的。今后如果遇到需要处理音频的场景，也有了比较清晰的解决问题的思路，觉得很实用。</p>
+					</div>
+                    <a href = "#mytop">回到顶部</a>
+				</div>  
+            </div>
+            
+        </div>  
+		<div class="footing">
+			<P>好好学习，天天向上</p> 
+			<p id = "copyright">Copyright © SunCY </p>
+		</div>
+    </div>
+</body>
+</html>
